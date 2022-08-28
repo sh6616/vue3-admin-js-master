@@ -4,6 +4,8 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    //解决template标签波浪线问题
+    "jsx":"preserve",
     "paths": {
       "@/*": [
         "src/*"
